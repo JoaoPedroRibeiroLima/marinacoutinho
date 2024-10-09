@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@font-face {
+    font-family: 'Avenue';
+    src: url("../fonts/Avenue.otf");
+}
+
+@font-face {
+    font-family: 'Buljirya';
+    src: url('../fonts/Buljirya.otf');
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor0: #4bb7a3;
+    --cor1: #23957b;
+    --cor2: #188067;
+    --corescura: #275d54;
+    --corbuynow: #45af9a;
+    --corbuynowhover: #2d7465;
+    --promobackground: #38a38d;
+    --fonte0: 'Buljirya', 'sans-serif';
+    --fonte1: "Oswald", 'sans-serif';
+    --fonte2: "Avenue", 'sans-serif';
+    --fonte3: 'Poppins', 'sans-serif';
+}
+
+.div-img {
+    position: absolute;
+    right: 1px;
+    top: 8px;
+}
+
+#menu-bar {
+    width: 50%;
+    position: absolute;
+    top: 200px;
+    right: 1px;
+}
+
+.text-dramarina {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 0.6em;
+    font-family: var(--fonte0);
+}
+
+.main-header-website {
+    height: 75vh;
+    background-image: linear-gradient(to right, var(--cor0), var(--cor1) );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-header-website-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    line-height: 0.5em;
+}
+
+.main-header-website h1{
+    font-family: var(--fonte1);
+    letter-spacing: 0.1em;
+    line-height: 1.1em;
+    font-size: 6.5em;
+}
+
+.main-header-website h6 {
+    font-family: var(--fonte2);
+    font-weight: lighter;
+    letter-spacing: 0.0000000001em;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.div-wave {
+    position: relative;
+}
+
+.custom-shape-divider-bottom-1727836774 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1727836774 svg {
+    position: relative;
+    display: block;
+    width: calc(113% + 1.3px);
+    height: 86px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1727836774 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* ======== 1º bloco ======== */
+
+.first-block {
+    letter-spacing: 0.1em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-doctor-img {
+    max-width: 450px;
+    transform-origin: bottom left;
+    position: absolute;
+    bottom: 0px;
+}
+
+.ghost-div {
+    height: 120vh;
+    width: 400px;
+    position: relative;    
+}
+
+.text-side-doctor1 {
+    font-family: var(--fonte2);
+    color: var(--cor2);
+    font-size:3em;
+    max-width: 45vw;
+    margin: 60px 0px;
+}
+
+.text-side-doctor2 {
+    font-family: var(--fonte2);
+    color: var(--cor2);
+    font-size:3em;
+    max-width: 500px;
+}
+
+.text-side-doctor3 {
+    color: var(--cor2);
+    font-family: var(--fonte1);
+    font-size: 2.6em;
+    font-weight: bolder;
+}
+
+.dolar-symbol {
+    font-size: 0.6em;
+    font-weight: lighter;
+    color: var(--cor0);
+}
+
+.text-side-doctor4 {
+    color: var(--cor2);
+    font-family: var(--fonte1);
+    font-size: 1.6em;
+}
+
+.buy-now {
+    display: block;
+    color: white;
+    text-align: center;
+    background-color: var(--corbuynow);
+    text-decoration: none;
+    font-family: var(--fonte1);
+    font-size: 2em;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: bolder;
+    width: 400px;
+    margin: 60px 0px;
+}
+
+.buy-now:hover {
+    background-color: var(--corbuynowhover);
+    transition: .7s;
+}
+
+/* ======== 2º bloco ======== */
+
+.second-block {
+    width: 100%;
+    height: 115vh;
+    background-color: var(--cor2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-dramarina-yt-video {
+    color: white;
+    font-family: var(--fonte0);
+    text-align: center;
+    font-size: .7em;
+    margin-top: 20px;
+}
+
+.div-ytvideo {
+    margin: 0 auto;
+}
+
+.div-border {
+    background-color: white;
+    padding: 5px;
+    width: 50vw;
+    height: 55vh;
+}
+
+.second-block-sidetext{
+    background-color: var(--corescura);
+    height: 115vh;
+    padding-left: 20px;
+    border-radius: 50px 0px 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.second-block-sidetext-text > p {
+    margin: 50px 0px;
+    font-size: 1.4em;
+}
+
+.second-block-sidetext-h1 {
+    padding: 0px 0px 0px 25px;
+    color: white;
+    font-family: var(--fonte1);
+    font-size: 3.3em;
+    max-width: 500px;
+}
+
+.second-block-sidetext-text {
+    max-width: 500px;
+    font-family: var(--fonte2);
+    color: white;
+   
+    padding: 25px 0px 35px 25px;
+    /* border-left: solid 1px white; */
+}
+
+/* ======== 3º bloco ======== */
+
+.third-block {
+    height: 100vh;
+    width: 100%;
+    margin: 0px 0px 60px 0px;
+}
+
+.div-centralizer-inside > h1 {
+    font-family: var(--fonte1);
+    color: var(--corescura);
+    font-size: 4em;
+    max-width: 860px;
+    text-align: left;
+    line-height: 1em;
+    margin: 10px 0px;
+}
+
+.div-centralizer{
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 50px 0px;
+}
+
+.div-centralizer-inside {
+    max-width: 90vw;
+}
+
+.p-third-block-header {
+    font-family: var(--fonte2);
+    font-size: 1.7em;
+    max-width: 550px;
+    text-align: left;
+    color: var(--corescura);
+}
+
+.marina-foto {
+    max-width: 45vw;
+}
+
+.div-centralizer-third-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 0px;
+}
+
+.third-block-sidetext {
+    color: var(--corescura);
+    max-width: 460px;
+}
+
+.third-block-sidetext > h2 {
+    font-family: var(--fonte1);
+    font-size: 3em;
+    line-height: 0.7em;
+}
+
+.third-block-sidetext > h3 {
+    font-family: var(--fonte1);
+    font-size: 2.5em;
+}
+
+.third-block-sidetext > p {
+    font-family: var(--fonte2);
+    font-size: 1.5em;
+}
+
+/*  ======== 4º bloco ========  */
+
+.fourth-block {
+    height: 60vw;
+    background-image: url('../images/square-background.svg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-fourth-block {
+    width: 85vw;
+}
+
+.fourth-block-h1 {
+    font-family: var(--fonte1);
+    font-size: 3em;
+    max-width: 500px;
+    color: var(--corescura);
+}
+
+.text-fourth-block {
+    color: var(--corescura);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-fourth-block h3 {
+    font-family: var(--fonte1);
+    font-size: 2em;
+}
+
+.text-fourth-block p {
+    font-family: var(--fonte2);
+    font-size: 1.3em;
+}
+
+.div-text-fourth-block {
+    max-width: 450px;
+    margin: 15px 0px;
+}
+
+/* ======== 5º bloco ======== */
+
+.fifth-block {
+    height: 100vh;
+    background-color: var(--corescura);
+    background-image: url('../images/background-green-fifth-block.svg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto-notebook {
+    width: 56%;
+}
+
+.fifth-block-textarea > h1 {
+    color: white;
+    font-family: var(--fonte1);
+    font-size: 3.5em;
+    line-height: 1em;
+}
+
+.the-other-text {
+    font-size: 1em;
+}
+
+.fifth-block-textarea > p {
+    color: white;
+    font-family: var(--fonte2);
+    margin: 30px 0px;
+    font-size: 1.4em;
+
+}
+
+.specialz {
+    font-family: var(--fonte1);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* ======== 6º bloco ======== */
+
+.sixth-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120vh;
+}
+
+.ghost-div2 {
+    width: 330px;
+    height: 120vh;
+    position: relative;
+}
+
+.surprised-girl {
+    max-width: 400px;
+    position: absolute;
+    transform-origin: bottom left;
+    bottom: 0px;
+    left: -200px;
+}
+
+.sixth-block-textarea {
+    display: inline;
+    padding-left: 100px;
+}
+
+.sixth-block-textarea > h1 {
+    color: var(--corescura);
+    font-family: var(--fonte1);
+    font-size: 3.5em;
+    line-height: 1em;
+}
+
+.sixth-block-textarea > h2 {
+    color: var(--corescura);
+    font-family: var(--fonte1);
+    font-size: 2.7em;
+}
+
+.sixth-block-textarea > p {
+    font-family: var(--fonte2);
+    color: var(--corescura);
+    font-size: 2.2em;
+}
+
+/* ======== 7º bloco ======== */
+
+.seventh-block {
+    height: 115vh;
+    background-color: var(--promobackground);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.discount-img {
+    max-width: 40vw;
+}
+
+.promotion-line {
+    text-decoration: line-through;
+    color: red;
+}
+
+.older-price {
+    color: white;
+    font-family: var(--fonte3);
+    font-size: 1.5em;
+}
+
+.seventh-block-textarea {
+    color: white;
+}
+
+.seventh-block h2 {
+    font-size: 2.5em;
+    font-family: var(--fonte3);
+}
+
+.twelve-times {
+    font-family: var(--fonte3);
+    font-size: 1.7em;
+}
+
+.seventh-block-textarea h1 {
+    font-family: var(--fonte1);
+    font-size: 2.3em;
+}
+
+.seventh-block ul {
+    list-style-position: outside;
+    padding-left: 20px;
+}
+
+ul li::marker {
+    margin: -10px;
+}
+
+.seventh-block li {
+    font-family: var(--fonte2);
+    font-size: 1.5em;
+    margin: 10px 0px;
+}
+
+.seventh-block h4 {
+    font-family: var(--fonte1);
+    font-size: 1.6em;
+}
+
+.seventh-block p {
+    font-family: var(--fonte2);
+    font-size: 1.5em;
+}
+
+.buy-now-promo {
+    display: block;
+    color: var(--promobackground);
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+    font-family: var(--fonte1);
+    font-size: 2em;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: bolder;
+    width: 400px;
+    margin: 10px 0px;
+}   
+
+.buy-now-promo:hover {
+    background-color: var(--corescura);
+    color: white;
+    transition: .5s;
+}
+
+/* ======== 8º bloco ======== */
+
+.eighth-block {
+    height: 130vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dra-marinacoutinho2 {
+    max-width: 35vw;
+}
+
+.eighth-block-textarea {
+    max-width: 45vw;
+}
+
+.eighth-block-textarea h1 {
+    font-family: var(--fonte1);
+    font-size: 3em;
+    line-height: 1em;
+    color: var(--corescura);
+}
+
+.eighth-block-textarea p {
+    margin: 17px 0px;
+    color: var(--corescura);
+    font-family: var(--fonte2);
+}
+
+.eighth-block-textarea > p {
+    margin: 5px 0px;
+}
