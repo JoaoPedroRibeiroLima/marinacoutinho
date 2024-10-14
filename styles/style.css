@@ -37,11 +37,75 @@
     top: 8px;
 }
 
+#menu-div {
+    position: relative;
+}
+
+#close-div {
+    color: white;
+    position: absolute;
+    top: 20px;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#close-div:hover {
+    
+}
+
+#close-img {
+    width: 40px;
+    height: 40px;
+}
+
+#menu{
+    position: absolute;
+    background-color: var(--corescura);
+   
+    color: white;
+    font-size: 2em;
+    font-family: var(--fonte2);
+    line-height: 2em;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    right: 10px;
+    top: -450px;
+
+    transition: 1s;
+}
+
+#menu > ul {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    list-style-position: inside;
+}
+
+#menu > ul > li {
+    margin: 15px 0px;
+    border-bottom: 1px solid var(--cor0);
+    cursor: pointer;
+}
+
 #menu-bar {
     width: 50%;
     position: absolute;
     top: 200px;
     right: 1px;
+}
+
+#menu-bar:hover {
+    cursor: pointer;
 }
 
 .text-dramarina {
