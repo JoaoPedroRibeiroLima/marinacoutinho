@@ -51,10 +51,6 @@
     cursor: pointer;
 }
 
-#close-div:hover {
-    
-}
-
 #close-img {
     width: 40px;
     height: 40px;
@@ -184,14 +180,24 @@
     justify-content: space-around;
 }
 
-.div-doctor-img {
+.div-doctor-img-show {
     max-width: 450px;
     transform-origin: bottom left;
     position: absolute;
     bottom: 0px;
+    left: 0px;
+    transition: 1.6s;
 }
 
-.ghost-div {
+.div-doctor-img-hidden {
+    max-width: 450px;
+    transform-origin: bottom left;
+    position: absolute;
+    bottom: 0px;
+    left: -600px;
+}
+
+#ghost-div {
     height: 120vh;
     width: 400px;
     position: relative;    
