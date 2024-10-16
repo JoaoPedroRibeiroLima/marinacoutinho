@@ -11,6 +11,15 @@
     src: url('../fonts/Buljirya.otf');
 }
 
+@keyframes autoRotateAnimation {
+    from {
+        transform: rotate(00deg);
+    }
+    to {
+        transform: rotate(70deg);
+    }
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -534,6 +543,8 @@
 
 .discount-img {
     max-width: 40vw;
+    animation: autoRotateAnimation;
+    animation-timeline: view();
 }
 
 .promotion-line {
